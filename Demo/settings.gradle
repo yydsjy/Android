@@ -1,0 +1,12 @@
+include ':app'
+rootProject.name = "Demo"
+
+include ':Mike-Log'
+project(':Mike-Log').projectDir="../Mike-Log" as File
+include ':Mike-UI'
+project(':Mike-UI').projectDir="../Mike-UI" as File
+include ':Mike-Nav-Annotation'
+project(':Mike-Nav-Annotation').projectDir="../Mike-Nav-Annotation" as File
+include ':Mike-Nav-Compiler'
+project(':Mike-Nav-Compiler').projectDir="../Mike-Nav-Compiler" as File
+
